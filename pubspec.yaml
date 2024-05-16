@@ -28,6 +28,8 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  slide_to_act: ^2.0.1
+  action_slider: ^0.7.0
   flutter:
     sdk: flutter
 

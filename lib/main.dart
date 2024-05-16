@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mini_challenge_1_id_card/responsive_list.dart';
+import 'package:mini_challenge_1_id_card/ui/draggable_container/draggable_container.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ResponsiveList(),
+      home: const DraggableContainer(),
     );
   }
 }
